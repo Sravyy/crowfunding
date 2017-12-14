@@ -1,0 +1,29 @@
+<h3>Add a New Project</h3>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-default">Add New Project</h3>
+  </div>
+  <div>
+    Project Name: <input #newName>
+  </div>
+  <div>
+    Project Founders: <input #newFounder>
+  </div>
+  <div class="mgr">
+    Project Managers: <input #newManager>
+  </div>
+  <div >
+    Project Description: <textarea #newDesc></textarea>
+  </div>
+  <div>
+    Funding Amount: <input #newNum>
+  </div>
+  <div>
+    Investing Ideas: <input #newIdeas>
+  </div>
+  <div>
+    Public Rewards: <input #newRewards>
+  </div>
+  <button (click)="submitForm(newName.value, newFounder.value, newManager.value, newDesc.value, newNum.value, newIdeas.value, newRewards.value)">Add Project!</button>
+
+</div>

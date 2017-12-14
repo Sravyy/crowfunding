@@ -1,0 +1,7 @@
+<h1>All Listed Projects!</h1>
+
+<div *ngFor="let project of projects | async" class="panel panel-primary">
+  <div class="panel-body">
+    <h3 (click)=goToDetailsOfPage(project)><em>{{project.name}}</em> by {{project.founder}}</h3>
+  </div>
+</div>

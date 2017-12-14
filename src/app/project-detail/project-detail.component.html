@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>Project Name: {{(projectToDisplay | async).name}}</h1>
+  <h2>Founder: {{(projectToDisplay | async).founder}}</h2>
+  <h3>Starters/Managers: {{(projectToDisplay | async).managers}}</h3>
+  <h4>Description: {{(projectToDisplay | async).description}}</h4>
+  <h3>Pledged funds: {{(projectToDisplay | async).amount}}</h3>
+  <h3>Investing Ideas: {{(projectToDisplay | async).investingIdeas}}</h3>
+  <h3>Public Rewards: {{(projectToDisplay | async).rewards}}</h3>
+</div>
