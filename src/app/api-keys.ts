@@ -1,9 +1,8 @@
-
-export let masterFirebaseConfig = {
-    apiKey: "AIzaSyCO4rLvRuHVCtJpxB1M6FMWbQ9kY0d2bSc",
-    authDomain: "crowdfunding-cd9f4.firebaseapp.com",
-    databaseURL: "https://crowdfunding-cd9f4.firebaseio.com",
-    projectId: "crowdfunding-cd9f4",
-    storageBucket: "crowdfunding-cd9f4.appspot.com",
-    messagingSenderId: "98232865528"
+export var masterFirebaseConfig = {
+  apiKey: "AIzaSyBLN99lZId86IHKbKjcn7P-6UGAM9Z8HwU",
+  authDomain: "crowdfunding-33658.firebaseapp.com",
+  databaseURL: "https://crowdfunding-33658.firebaseio.com",
+  projectId: "crowdfunding-33658",
+  storageBucket: "crowdfunding-33658.appspot.com",
+  messagingSenderId: "123078327252"
   };

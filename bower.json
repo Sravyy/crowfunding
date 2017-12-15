@@ -6,7 +6,7 @@
     "sravanthi velaga <svelaga0412@gmail.com>"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/Sravyy/crowfunding",
   "ignore": [
     "**/.*",
     "node_modules",
